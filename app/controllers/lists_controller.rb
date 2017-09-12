@@ -5,4 +5,11 @@ class ListsController < ApplicationController
 		"Milk" => 2
 	}
   end
+  def packing
+  	@clothes = {
+  		"Shirt" => 2,
+  		"Shorts" => 2
+  	}
+  	
+  end
 end
